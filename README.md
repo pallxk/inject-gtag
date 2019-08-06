@@ -1,7 +1,7 @@
 inject-gtag
 ===========
 
-![npm](https://img.shields.io/npm/v/inject-gtag)
+[![inject-gtag @ npm](https://img.shields.io/npm/v/inject-gtag)](https://www.npmjs.com/package/inject-gtag)
 
 A CLI & helper function to inject gtag.js code snippet into an html file. Just like what [Cloudflare Google Analytics App](https://www.cloudflare.com/apps/google-analytics) does.
 
