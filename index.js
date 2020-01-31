@@ -17,5 +17,6 @@ function generateGTagSnippet(id, minified) {
 module.exports = function injectGTag(html, trackingID, minify) {
   const $ = cheerio.load(html)
   $('head').prepend(generateGTagSnippet(trackingID, minify))
-  return $.html()
+  // If input html is empty, we simply output the content of <head>
+  return html ? $.html() : $('head').html()
 }
