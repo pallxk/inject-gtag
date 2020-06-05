@@ -42,7 +42,7 @@ Options:
 ### Examples
 
 ```sh
-# Reads stdin and wrties stdout by default
+# Reads stdin and writes stdout by default
 inject-gtag --id UA-123456789-1 < original.html > injected.html
 curl -s example.com | inject-gtag --id UA-123456789-1 > my.html
 
